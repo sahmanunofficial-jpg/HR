@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WindowsFormsApp1.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="WindowsFormsApp1.Properties.Settings.BaseConnectionString"
+            connectionString="Data Source=31.220.72.106;Initial Catalog=cleancode;User ID=test;Password=IRdKCfmWX9ZCoGB;TrustServerCertificate=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <WindowsFormsApp1.Properties.Settings>
+            <setting name="postojeci_folder" serializeAs="String">
+                <value>C:\Users\asmir.sahman\Desktop\Test</value>
+            </setting>
+            <setting name="postojeca_tabela" serializeAs="String">
+                <value>vrsta_protokola</value>
+            </setting>
+        </WindowsFormsApp1.Properties.Settings>
+    </userSettings>
+</configuration>
